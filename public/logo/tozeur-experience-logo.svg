@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 100" width="420" height="100" fill="none">
+  <!-- Brand Icon -->
+  <g transform="translate(10, 10)">
+    <!-- Outer Arch / Tozeur architectural brick motif inspiration -->
+    <path d="M 40 4 C 18 4 4 18 4 40 L 4 76 L 76 76 L 76 40 C 76 18 62 4 40 4 Z" fill="none" stroke="#174C38" stroke-width="2.5"/>
+    <path d="M 40 10 C 22 10 10 22 10 40 L 10 72 L 70 72 L 70 40 C 70 22 58 10 40 10 Z" fill="none" stroke="#C99550" stroke-width="1.2" stroke-dasharray="3 2"/>
+    <!-- Golden Sun -->
+    <circle cx="40" cy="30" r="10" fill="#C99550" opacity="0.9"/>
+    <!-- Stylized Palm Fronds -->
+    <path d="M 40 68 Q 40 38 40 28" stroke="#174C38" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 40 44 Q 24 38 18 48 Q 28 42 40 48" fill="#174C38"/>
+    <path d="M 40 44 Q 56 38 62 48 Q 52 42 40 48" fill="#174C38"/>
+    <path d="M 40 35 Q 26 26 22 35 Q 32 30 40 38" fill="#174C38"/>
+    <path d="M 40 35 Q 54 26 58 35 Q 48 30 40 38" fill="#174C38"/>
+    <!-- Desert Dune at base -->
+    <path d="M 12 70 Q 28 62 40 65 Q 52 68 68 63 L 68 72 L 12 72 Z" fill="#B86F3D" opacity="0.85"/>
+  </g>
+  <!-- Brand Typography -->
+  <text x="104" y="44" font-family="'Playfair Display', Georgia, serif" font-size="24" font-weight="700" letter-spacing="4" fill="#174C38">TOZEUR</text>
+  <text x="246" y="44" font-family="'Plus Jakarta Sans', sans-serif" font-size="23" font-weight="400" letter-spacing="6" fill="#C99550">EXPERIENCE</text>
+  <line x1="104" y1="56" x2="390" y2="56" stroke="#174C38" stroke-width="1" opacity="0.3"/>
+  <text x="105" y="72" font-family="'Playfair Display', Georgia, serif" font-style="italic" font-size="14.5" letter-spacing="2" fill="#B86F3D">Vivez l’essence de Tozeur</text>
+</svg>

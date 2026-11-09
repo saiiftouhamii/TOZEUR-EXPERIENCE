@@ -1,26 +1,62 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --color-forest-primary: #174C38;
+  --color-forest-dark: #103B2D;
+  --color-sand: #F4E8D3;
+  --color-sand-light: #FBF4E9;
+  --color-gold: #C99550;
+  --color-gold-light: #E0B47A;
+  --color-terracotta: #B86F3D;
+  --color-cream: #FFF9F0;
+  --color-earth: #382719;
+
+  --color-primary: #174C38;
+  --color-primary-dark: #103B2D;
+  --color-primary-container: #174C38;
+  --color-secondary: #C99550;
+  --color-secondary-container: #FEC47A;
+  --color-tertiary: #B86F3D;
+  --color-surface: #FFF9F0;
+  --color-surface-container: #F9ECD7;
+  --color-surface-container-low: #FEF2DD;
+  --color-surface-variant: #EDE1CC;
+  --color-on-surface: #382719;
+  --color-on-surface-variant: #404944;
+
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #FFF9F0;
+  color: #382719;
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+::selection {
+  background-color: #C99550;
+  color: #FFF9F0;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F4E8D3;
+}
+::-webkit-scrollbar-thumb {
+  background: #174C38;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #103B2D;
 }
