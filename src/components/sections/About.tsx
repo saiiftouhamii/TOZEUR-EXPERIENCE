@@ -20,7 +20,7 @@ export function About() {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-[#F4E8D3] bg-[#F4E8D3]">
               <div className="relative h-[420px] sm:h-[500px] w-full">
                 <Image
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBCukEIBsYZRNejO-LtQ_k4Z4ZqGrBz0azgIaAqMyL-kw7l73GOONz2fcF0I66jtKG2_-VbK3Qqjwpg_N2KJGXa6QE5Dmo0aYzsEZaNaxMEArk-Yy0b6dGN9UHKQbbRJC5FJG23_Uvxp5EAm3egJSBz3zCzuwQ7y9huI2cUgl3Pp2psW2j27cSACj12_my_98K4SzxtrmZ-_cZfUTE5FbQkAoFHKf612piPuQaPmDs"
+                  src="/images/chebika-about.jpg"
                   alt="Mountain oasis of Chebika with cascading turquoise waterfall and palm trees in southern Tunisia"
                   fill
                   sizes="(max-width: 1024px) 100vw, 50vw"

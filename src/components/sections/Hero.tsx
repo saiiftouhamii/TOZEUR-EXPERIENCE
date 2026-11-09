@@ -14,7 +14,7 @@ export function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="https://lh3.googleusercontent.com/aida-public/AB6AXuAYGXC74Z3fS_rUgKEbXSngJ_qrcCG2VFazj7kQEViNZwa2wrRKD_t6_LyS1H9xgRX_YhR-Jgk3iUrfUHohj59hU8OxIL8kxE0GkXa3TsCZ4bf0v87m5uk-djPnsBhVCmC-tWVEWSzJ5wvNmk7qpd0QsOmnlqbqt64jg-zr8f4PQNF0s-uZeizHY84DUfJ3X7xvZKEezuRzWZmQZVIx8b17U0TkqDSMXZXIQFeUvyw"
+          src="/images/hero.jpg"
           alt="Cinematic landscape of golden Saharan sand dunes in Tozeur, Tunisia at sunset"
           fill
           priority

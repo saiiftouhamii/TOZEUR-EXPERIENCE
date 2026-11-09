@@ -46,14 +46,14 @@ export function Footer() {
           {/* Brand Info */}
           <div className="lg:col-span-5 space-y-6">
             <a href="#hero" className="inline-block" aria-label="TOZEUR EXPERIENCE">
-              <div className="relative h-12 w-60">
-                <Image
-                  src="/logo/tozeur-experience-logo-white.svg"
-                  alt="TOZEUR EXPERIENCE Official Logo"
-                  fill
-                  className="object-contain object-left"
-                />
-              </div>
+              <Image
+                src="/logo/tozeur-experience-logo-white.svg"
+                alt="TOZEUR EXPERIENCE Official Logo"
+                width={240}
+                height={58}
+                className="h-11 sm:h-12 w-auto object-contain"
+                style={{ maxHeight: "50px", width: "auto" }}
+              />
             </a>
 
             <p className="text-[#F4E8D3]/85 text-sm leading-relaxed max-w-sm">

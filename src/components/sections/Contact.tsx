@@ -136,7 +136,7 @@ export function Contact({ selectedService }: ContactProps) {
                 {/* Map Visual Preview Container */}
                 <div className="relative w-full h-64 rounded-xl overflow-hidden mb-6 border border-[#EDE1CC] shadow-inner bg-[#EDE1CC]">
                   <Image
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuApowW7wJxV6RcFDPqWm9bumc6EyJkA_B4knZlG-gDyWegO8gboUyEjZjZ8SeJNiDdHbNjSNp5LN60OWbArzZXpBdjzoR0C7mmo7ws9RezmqDi9kvh1iiwTLugTMfU_G7Ik60d27Zmj-ucYAwVqexnRHuVVoWZjxTHTimEV3d4iONGwvPqrPq8hxKBONUeRsoQibCT_JgM5eZ-4UYCebhZESreZdTP-ofNHW-CglLM"
+                    src="/images/tozeur-map.jpg"
                     alt="Map overview representation of Tozeur Tunisia coordinates and oasis perimeter"
                     fill
                     sizes="(max-width: 1024px) 100vw, 50vw"
@@ -167,7 +167,7 @@ export function Contact({ selectedService }: ContactProps) {
                   rel="noopener noreferrer"
                   className="w-full inline-flex items-center justify-center gap-2 px-6 py-4 rounded-xl bg-[#174C38] text-white font-bold text-sm hover:bg-[#103B2D] border border-[#C99550]/40 shadow-md hover:shadow-lg transition-all duration-200 group"
                 >
-                  <span>{siteConfig.mapsUrl ? "View on Google Maps" : "[GOOGLE MAPS LINK TO BE PROVIDED]"}</span>
+                  <span>View on Google Maps</span>
                   <ExternalLink className="size-4 text-[#C99550] group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
                 </a>
               </div>

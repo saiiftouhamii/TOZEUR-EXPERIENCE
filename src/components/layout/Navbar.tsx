@@ -57,19 +57,19 @@ export function Navbar() {
           className="flex items-center gap-3 transition-transform hover:scale-[1.02] duration-200"
           aria-label="TOZEUR EXPERIENCE Home"
         >
-          <div className="relative h-11 sm:h-12 w-48 sm:w-56">
-            <Image
-              src={
-                scrolled
-                  ? "/logo/tozeur-experience-logo.svg"
-                  : "/logo/tozeur-experience-logo-white.svg"
-              }
-              alt="TOZEUR EXPERIENCE Official Logo"
-              fill
-              priority
-              className="object-contain object-left"
-            />
-          </div>
+          <Image
+            src={
+              scrolled
+                ? "/logo/tozeur-experience-logo.svg"
+                : "/logo/tozeur-experience-logo-white.svg"
+            }
+            alt="TOZEUR EXPERIENCE Official Logo"
+            width={220}
+            height={52}
+            priority
+            className="h-10 sm:h-11 w-auto object-contain"
+            style={{ maxHeight: "48px", width: "auto" }}
+          />
         </a>
 
         {/* Desktop Navigation Links */}
